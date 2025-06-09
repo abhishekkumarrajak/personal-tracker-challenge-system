@@ -1,0 +1,261 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar-modern {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00d8ff;
+}
+
+.navbar-modern ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-modern ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-modern ul li a:hover {
+  color: #00d8ff;
+}
+
+
+.hero-glass {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.features-section {
+  padding: 60px 20px;
+  background-color: #121212; 
+  text-align: center;
+  color: #ddd;
+}
+
+
+.hero-glass h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-glass h1 span {
+  color: #00d8ff;
+}
+
+.hero-glass p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  padding: 14px 32px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #00d8ff;
+  color: #00d8ff;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background: #00d8ff;
+  color: black;
+}
+
+
+.features-section {
+  padding: 60px 20px;
+  background-color: #f5f6fa;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+.aboutus-section {
+  padding: 80px 40px;
+  background-color: #121421;
+  color: #f2f2f2;
+  width: 100%;
+  margin: 60px auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  text-align: left;
+  line-height: 1.8;
+}
+
+.aboutus-section h3 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #00d8ff;
+  text-align: center;
+}
+
+.aboutus-section p {
+  font-size: 1.10rem;
+  margin-bottom: 15px;
+}
+.footer {
+  background-color: #0d1b1e;
+  color: #ccc;
+  padding: 40px 5% 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+.footer-left h3 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-socials a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+  color: #00d8ff;
+}
+
+.footer-right {
+  max-width: 300px;
+}
+
+.subscribe-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  padding: 8px 12px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #111;
+  color: #fff;
+  width: 180px;
+}
+
+.subscribe-form button {
+  padding: 8px 16px;
+  background-color: #00d8ff;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #00c0e0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #888;
+}
+.auth-page {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.auth-page input {
+
+  display: inline-flex;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}
+
+
+
+
+
+
